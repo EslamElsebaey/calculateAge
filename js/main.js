@@ -26,6 +26,6 @@ function calcAge() {
   }
 
   for (var i = 0; i < realAge; i++) {
-    stars.innerHTML += "*";
+    stars.innerHTML += `* `;
   }
 }
