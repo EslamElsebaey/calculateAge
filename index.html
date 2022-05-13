@@ -1,50 +1,47 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/all.css">
-  <link rel="stylesheet" href="css/style.css" />
-  <title>Document</title>
-</head>
-<body class="bg-info vh-100">
-  <div class="container pt-5 mt-5">
-    <div class="row gy-4">
-      <div class="col-sm-12 mb-5 d-flex justify-content-center">
-        <img src="images/age-calculator.png" class="w-100" alt="">
-      </div>
-      <div class="col-sm-12 mb-5">
-       <input required type="number" placeholder="Enter Your Year of Birth " class="form-control w-100" id="ageInput">
-      </div>
-      <div class="col-sm-12">
-       <button id="myButton"  onclick="calcAge()" class="text-capitalize btn w-100 mybtn ">calculate age</button>
-      </div>
-      <div class="col-sm-12 align-items-center d-flex flex-column">
-        <h2 id="age"></h2>
-        <h2 id="type"></h2>
-        <h2 id="stars"></h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>calculateAge</title>
+  </head>
+  <body class="bg-info vh-100">
+    <div class="container pt-5 mt-5">
+      <div class="row gy-4">
+        <div class="col-sm-12 mb-5 d-flex justify-content-center">
+          <img src="images/age-calculator.png" class="w-100" alt="" />
+        </div>
+        <div class="col-sm-12 mb-5">
+          <input
+            required
+            type="number"
+            placeholder="Enter Your Year of Birth "
+            class="form-control w-100"
+            id="ageInput"
+          />
+        </div>
+        <div class="col-sm-12">
+          <button
+            id="myButton"
+            onclick="calcAge()"
+            class="text-capitalize btn w-100 mybtn"
+          >
+            calculate age
+          </button>
+        </div>
+        <div class="col-sm-12 align-items-center d-flex flex-column">
+          <h2 id="age"></h2>
+          <h2 id="type"></h2>
+          <h2 id="stars"></h2>
+        </div>
       </div>
     </div>
-  </div>
 
- 
-
-
-
-
-
-
-
-  
-
-
-
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
