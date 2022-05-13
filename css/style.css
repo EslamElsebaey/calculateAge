@@ -1,0 +1,15 @@
+.candle{
+    width: 250px;
+    display: inline-block;
+}
+.mybtn{
+    background-color: #2A80B9;
+    color: black;
+    font-size: 18px;
+}
+.mybtn:hover{
+    color: black;
+}
+h2{
+    color : #062c45;
+}
